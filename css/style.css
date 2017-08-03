@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'Proxima Nova Thin';
+  src: url('https://ixd.invodo.com/amazon-fonts/proxima-nova-thin-596faf922544b.otf');
+}
+
+body {
+  margin: 2.5% 10%;
+}
+
+nav {
+  margin: 2%;
+}
+
+nav img {
+  width: 11%;
+  margin-left: 2%;
+}
+
+#video-reel {
+ width: 100%;
+ height: auto;
+}
+
+footer {
+  background-color: #f7f7f7;
+  height: 150px;
+  width: 100%;
+  text-align: center;
+  padding-top: 70px;
+  margin-top: 10px;
+}
+
+footer p {
+  font-family: 'Proxima Nova Thin', sans-serif;
+  color: lightgray;
+  font-size: 1em;
+}
+
+
+/* TABLET STYLES */
+@media (min-width: 768px) and (max-width: 991px) {
+  footer {
+    height: 100px;
+    padding-top: 45px;
+  }
+
+  footer p {
+    font-size: .75em;
+  }
+
+
+}
+
+/* MOBILE STYLES */
+@media (max-width: 767px) {
+  footer {
+    height: 50px;
+    padding-top: 20px;
+  }
+
+  footer p {
+    font-size: .5em;
+  }
+}
